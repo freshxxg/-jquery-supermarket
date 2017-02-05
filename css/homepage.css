@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width: 100%;
+    height: 64px;
+    background: #222222;
+}
+.go_list{
+    float:left;
+    height: 64px;
+    width: 110px;
+    margin-left: 125px;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #5d5d5d;
+    background: #222222;
+    border: none;
+    padding: 0;
+}
+.homepage{
+    float:left;
+    height: 64px;
+    width: 80px;
+    text-align: center;
+    line-height:64px;
+    border: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #f0f0f0;
+    background: #000000;
+
+}
+.goods_list{
+    float:left;
+    height: 64px;
+    width: 110px;
+    margin-right: 600px;
+    font-size:18px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #5d5d5d;
+    border: none;
+    background: #222222;
+    padding: 0;
+}
+.cart{
+    width: 140px;
+    height: 64px;
+    background: #222222;
+    border: none;
+
+}
+.cart img{
+    width: 25px;
+    height: 25px;
+    vertical-align:text-bottom;
+}
+.cart a{
+    font-size:18px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #5d5d5d;
+}
+.content{
+    margin-top:22px ;
+    margin-left:auto;
+    margin-right:auto;
+    padding-left: 34px;
+    padding-right: 51px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    width:1000px;
+    height:280px;
+    background: #eeeeee;
+}
+#welcome{
+    font-size:4em;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #38332e;
+}
+#text{
+    font-size: 1.4em;
+    font-family: sans-serif;
+    line-height:1.6;
+    font-weight: 700;
+    color: #333336;
+    margin-top: 10px;
+}
+.content button{
+    text-align:center;
+    font-size: 1.2em;
+    font-weight: 800;
+    color: #f0f0f0;
+    border-radius:5px;
+    height:45px;
+    width: 120px;
+    background: #3c91cb;
+    margin-top: 15px;
+    border: none;
+}

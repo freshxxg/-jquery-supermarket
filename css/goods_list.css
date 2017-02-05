@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    width:100%;
+    height: 64px;
+    background: #222222;
+}
+.go_list{
+    text-align: center;
+    line-height:64px;
+    float:left;
+    height: 64px;
+    width: 110px;
+    margin-left: 125px;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #5d5d5d;
+    background: #222222;
+    border-style: none;
+}
+.homepage{
+    float:left;
+    height: 64px;
+    width: 80px;
+    border: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #5d5d5d;
+    background: #222222;
+}
+.goods_list{
+    float:left;
+    text-align: center;
+    border: none;
+    padding: 0;
+    line-height:64px;
+    height: 64px;
+    width: 110px;
+    margin-right: 600px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: #f0f0f0;
+    background: #000000;
+
+}
+.cart{
+    width: 140px;
+    height: 64px;
+    background: #222222;
+    border: none;
+}
+.cart img{
+    width: 25px;
+    height: 25px;
+    vertical-align:text-bottom;
+}
+.cart a{
+    font-size:18px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #5d5d5d;
+}
+table, th, td,.goods_table
+{
+    border: 1px solid #ded5ee;
+}
+.goods_table{
+    margin-top: 22px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1040px;
+    height:520px ;
+    border-radius:5px;
+}
+.goods_table div{
+    width: 1040px;
+    height:23px ;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ded5ee;
+    font-size: 23px;
+    font-family: sans-serif;
+    color: #282828;
+    background: #eeeeee;
+}
+.goods_table table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 1010px;
+    height: 388px;
+    border-collapse: collapse;
+}
+ thead tr{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #282828;
+}
+.classification{
+    width: 215px;
+    height: 43px;
+}
+.name{
+    width:215px ;
+}
+.price{
+    width:206px ;
+}
+.unit{
+    width:129px ;
+}
+.blank{
+    width: 300px;
+}
+td{
+    padding-top: 9px;
+    padding-bottom: 12px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #2b223a;
+}
+#price{
+    padding-top: 9px;
+    padding-bottom: 12px;
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: #2b223a;
+}
+td button{
+    font-size: 15px;
+    font-weight: 600;
+    color: #f0f0f0;
+    border-radius:5px;
+    height:35px;
+    width: 110px;
+    background: #428acb;
+    border: none;
+}
+

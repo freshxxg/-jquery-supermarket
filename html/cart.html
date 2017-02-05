@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link rel="stylesheet"  type="text/css"  href="../css/cart.css">
+    <script src="../js/jquery-3.1.0.min.js"></script>
+    <script src="../js/lodash.js"></script>
+    <script type="text/javascript" src="../js/jquery.tmpl.min.js"></script>
+    <script src="../js/cart.js"></script>
+    <script id="cart_list" type="text/x-jquery-tmpl">
+        <tbody>
+        <tr id="${name}">
+            <td>${classification}</td>
+            <td>${name}</td>
+            <td class="number">${price}</td>
+            <td>${unit}</td>
+            <td >
+                <div>
+                <button class="${name}">-</button
+                ><input type="text"  value="${count}"  class="${name}"  onkeyup="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}" onafterpaste="if(this.value.length==1){this.value=this.value.replace(/[^1-9]/g,'')}else{this.value=this.value.replace(/\D/g,'')}"
+                ><button class="${name}" >+</button>
+                </div>
+            </td>
+            <td class="number" id="subtotal">${subtotal}</td>
+        </tr>
+        </tbody>
+    </script>
+</head>
+<body>
+    <div class='header'>
+        <button class="go_list" id="go_list">Let's Go</button>
+            <button class="homepage" id="homepage">主页</button>
+            <button class="goods_list" id="goods_list">商品列表</button>
+            <button class="cart" id="cart">
+            <img src="../white_cart.png" alt="购物车的图标"/><a>购物车(<strong id="count"></strong>)</a>
+        </button>
+    </div>
+    <div class="shopping_list">
+        <div class="list_text">购物清单</div>
+        <table>
+            <thead>
+            <tr>
+                <th class="classification">分类</th>
+                <th class="name">名称</th>
+                <th class="price">单价(元)</th>
+                <th class="unit">单位</th>
+                <th class="count">数量</th>
+                <th class="subtotal">小计</th>
+            </tr>
+            </thead>
+        </table>
+        <div class="sum_money">总计：<a id="total"></a>(元)</div>
+        <button id="pay">付款</button>
+    </div>
+</body>
+</html>
